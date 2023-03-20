@@ -1,8 +1,27 @@
 {
-  "heroes": [],
+  "heroes": [
+    {
+      "id": 1,
+      "name": "First hero",
+      "description": "The first hero in the ranking!",
+      "element": "fire"
+    },
+    {
+      "id": 2,
+      "name": "Unknown hero",
+      "description": "Lurking in the shadows",
+      "element": "wind"
+    },
+    {
+      "id": 3,
+      "name": "Sea ​​hero",
+      "description": "Like Aquaman, but not from DC",
+      "element": "water"
+    }
+  ],
   "filters": [
     {
-      "id":"all",
+      "id": "all",
       "name": "all",
       "label": "All",
       "className": "btn-outline-dark"
@@ -26,7 +45,7 @@
       "className": "btn-success"
     },
     {
-      "id":"earth",
+      "id": "earth",
       "name": "earth",
       "label": "Earth",
       "className": "btn-secondary"
